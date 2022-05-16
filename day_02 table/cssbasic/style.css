@@ -1,0 +1,19 @@
+h2 {color:blue}\
+
+/* #test {color: red;} ghi chú tìm hiểu sau */
+.text {color: viol
+    
+
+   .text1 {font: size 50px;}
+
+   có nhiều cách để chọn đối tượng để thêm thuộc tính gắn thẻ link cho css vào trang html
+
+.box p { 
+    font-weight: 900;
+
+}
+p ~ .text {
+    font-style: italic;
+    /* tìm hiểu lại về phần này các cách chọn để gắn thuộc tính css */
+    
+}

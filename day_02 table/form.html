@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<!-- các phần thường xuyên sử dụng trong form chú ý -->
+
+<body>
+    <form>
+        <!-- tạo nút ghi 1 dòng -->
+        <label>nhập tên</label>
+        <input type="text" placeholder="enter name">
+
+        <label>pasword</label>
+        <input type="pasword">
+
+
+
+        <br>
+        <!-- có thể nhập ghi chú trên nhiều dòng khác nhau -->
+        <label>nhập ghi chú</label>
+        <textarea placeholder="nhập ghi chú"></textarea>
+
+
+        <br>
+        <!-- tạo nút chọn chỉ chọn được 1 trong 2 -->
+        <label>giới tính</label>
+        <input type="radio" name="render" id="male">
+        <label for="male">nam</label>
+        <input type="radio" name="render" id="femal">
+
+        <label for="femal">nữ</label>
+
+
+
+        <br>
+<!-- chọn nhiều phương án chú ý cú pháp checkbox -->
+        <label>ngôn ngữ</label>
+        <input type="checkbox" name="language" id="tin">
+        <label for="tin">tiếng hàn</label>
+        <input type="checkbox" name="languae" id="lan">
+        <label for="lan">tiếng nhật</label>
+
+        <br>
+        <!-- thẻ label để gợi ý tên trong phần gợi ý -->
+        <label for="">năm sinh</label>
+        <select>
+            <option>1991</option>
+            <option>1992</option>
+            <option>1993</option>
+            <option>1994</option>
+        </select>
+
+
+
+        <br>
+        <button>đăng kí</button>
+        <input type="submit" value="đăng nhập">
+        <br>
+        <input type="file">
+        <!-- đây là những phần thường xuyên sử dụng chú ý  -->
+
+    </form>
+</body>
+
+</html>

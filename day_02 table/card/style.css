@@ -1,0 +1,30 @@
+/* clear 1 số thuộc tính về trạng thái ban đầu */
+*{
+    max-width: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body { 
+    font-family: 'roboto'; sans-serif;
+
+}
+img {
+    max-width: 100% ;
+/* auto có ảnh là cho thuộc tính này vào */
+}
+.card {
+    width: 320px;
+    box-shadow: ;
+    overflow-hiden
+
+}
+.title{
+    font-size: 19px;
+    color : #464646
+    
+}
+.type
+/* dùng css mô tả 1 card
+ */
+icon bản chất là text nên có thể set corlor
