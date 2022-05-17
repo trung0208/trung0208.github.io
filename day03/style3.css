@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body { 
+    font-family: 'Roboto', sans-serif;
+}
+.card {
+    width: 487px;
+    background-color: ;
+   
+ 
+    margin: auto;
+    text-align: center;
+    color: #fff;
+ 
+}
+.infor1 {
+    margin: auto;
+  width: 487px;
+ padding: 15px;
+ 
+  box-shadow: 0 2px 0.5px 0.5px rgb(187, 188, 189);
+}
+.container {
+    margin-top: 50px;
+}
+.year {
+    background-color: #2682f2;
+    font-size: 16px;
+    padding: 7px;
+    border-top-left-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+
+}
+.thang6  .date{
+    
+    font-size: 40px;
+    
+}
+.thang6 .month {
+    font-size: 16px;
+}
+.thang6 {
+    background-color: #4b96f2; 
+    padding-top: 30px;
+    padding-bottom: 35px;
+    border-bottom-left-radius: 5px;
+}
+.infor1 {
+    padding: 1rem 1.5rem 0 1.5rem;
+    font-size: 14.4px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+a {
+    font-size: 20.8px;
+text-decoration: none;
+    color: #464646;
+    padding-top: 19px;
+}
+.dangki {
+    border-top: 1px solid rgb(187, 188, 189);
+    padding-top: 13px;
+    color: #3c78e8;
+    font-size: 16px;
+    padding-bottom: 7px;
+}
+.infor {
+    padding-top: 18px;
+    padding: 7px;
+    padding-left: 0;
+    color: #464646;
+    line-height: 15px;
+}
+

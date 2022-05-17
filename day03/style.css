@@ -1,0 +1,34 @@
+:root {
+    font-size: 14px;
+}
+
+.text {
+    font-size: 2rem;
+}
+.box {
+    font-size: 20px;
+}
+ .box p {
+     font-size: 2em;
+ }
+ .shape {
+     width: 50vw;
+     height: 50vh;
+     background-color: blue;
+ }
+ .child {
+     width: 100%;
+     height: 50%;
+     background-color: brown;
+ }
+ /* đặt biến ???? */
+
+muốn đè lên màu khác dùng cú pháp như vậy chỉ có tác dụng ở nơi thay đổi
+
+
+ --color-text : #99a832
+ --color-heading : #99a832
+ --with : 100px
+ 
+
+ công thức tính toán khi dùng biến
