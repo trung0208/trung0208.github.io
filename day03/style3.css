@@ -19,7 +19,7 @@ body {
 .infor1 {
     margin: auto;
   width: 487px;
- padding: 15px;
+ padding: 16px 24px 0;
  
   box-shadow: 0 2px 0.5px 0.5px rgb(187, 188, 189);
 }
@@ -32,6 +32,7 @@ body {
     padding: 7px;
     border-top-left-radius: 5px;
     font-family: 'Roboto', sans-serif;
+    font-weight: 400;
 
 }
 .thang6  .date{
@@ -53,6 +54,7 @@ body {
     font-size: 14.4px;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
+    margin-bottom: 7px;
 }
 a {
     font-size: 20.8px;
@@ -74,4 +76,6 @@ text-decoration: none;
     color: #464646;
     line-height: 15px;
 }
-
+.infor1 p {
+    margin-top: 12px;
+}
