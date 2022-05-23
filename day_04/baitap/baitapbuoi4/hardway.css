@@ -1,0 +1,81 @@
+/* dau tien */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: beige;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+.paragraph {
+    width: 700px;
+    margin: 80px;
+    padding: 50px;
+    background-color: #FFFF;
+    box-shadow: 4px 4px gray;
+}
+a button {
+    padding-top: 0;
+    background-color: greenyellow;
+    padding: 7px; 
+    margin-bottom: 20px;
+   
+}
+
+
+/* footer */
+.footer_item {
+    background-color: #30598c;
+}
+
+.container-footer {
+    display: flex;
+    width: 1200px;
+    width: 100%;
+    padding: 35px;
+    flex-direction: row-reverse;
+}
+.footer_item {
+    flex-basis: 25%;
+    padding: 0 15px;
+    line-height: 2.5em;
+    color: #FFFF;
+    font-size: 14px;
+    font-weight: 1000;
+   justify-content: end;
+   font-weight: 500;
+}
+.footer_container_full { 
+    background-color: #30598c;
+}
+.footer_item li {
+    list-style-type: none;
+}
+
+.footer_item li a {
+    color: #FFFF;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+}
+h4 {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 18px;
+    
+    padding-bottom: 10px;
+    padding: 6px;
+    line-height: 1.2;
+}
+ li a:hover{
+    color: #808000;
+    text-decoration: underline;
+}
+.footer_item h4 {
+    font-weight: 400;
+}
