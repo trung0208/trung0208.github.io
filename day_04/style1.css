@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* nhung thuoc tinh ap dung ơ khoi container(the cha) */
+.container {
+    background-color: bisque;
+    display: flex;
+    flex-direction: row;
+    height: 600px;
+    flex-wrap: wrap;
+}
+.item {
+    width: 100px;
+    height: 100px;
+    background-color: darkgoldenrod;
+    color: #fff;
+    font: 2rem;
+    border: 2px solid #000;
+    text-align: center;
+    line-height: 100px;
+/* cho chu ra giua */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* co những thuộc tính áp dụng ở phần thân và 1 số thuộc tính áp dụng ở phần .item */
+/* những thuộc tính áp dụng ở item */

@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 2000px;
+}
+.box {
+    width: 200px;
+    height: 100px;
+    background-color: #564848;
+    position: relative;
+    top: 50px;
+    left: 50px;
+    z-index: 3;
+
+}
+.parent {
+    width: 700;
+    height: 400px;
+    background-color: rgb(141, 57, 57);
+    position: relative;
+    z-index: 5;
+}
+.child {
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    position: absolute;
+    left: 50px;
+    top: 50px;
+}
+.btn-top {
+    padding: 15px 30px;
+    background-color: rgb(200, 186, 186);
+    border: none;
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+}
+.sticky {
+    background-color: aquamarine;
+    position: sticky;
+    top: 50px;
+    height: 100px;
+    left: 40px;
+}
+

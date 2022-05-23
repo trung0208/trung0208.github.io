@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="./style.css4">
+    <title>Mo ta card</title>
+</head>
+
+<body>
+ <div class="container">
+    <div class="card">
+        <h3 class="year">2022</h3>
+        <div class="thang6">
+            <h1 class="date">10</h1>
+            <p class="month">Tháng 6</p>
+        </div>
+
+    </div>
+    <div class="infor1">
+        <div><a href="https://aws.techmaster.vn/">Khóa học Learn AWS The Hard Way</a></div>
+        <div class="infor">
+            <p><i class="fas fa-calendar-alt"></i> Thứ 2 , 4 , 6</p><br>
+            <p><i class="fas fa-clock"></i> 18:45 - 21:45</p><br>
+            <p><i class="fas fa-map-marker-alt"></i></i> Cơ sở Tố Hữu</p>
+        </div>
+        <div class="dangki">Đăng ký</div>
+    </div>
+
+</div>
+      
+</body>
+
+</html>
