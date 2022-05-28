@@ -17,27 +17,52 @@ h2{
     box-shadow: 1px 2px 2px rgb(186, 182, 182);
     background-color: #ffffff;
     position: relative;
+    
+}
+
+li text {
+    padding: 5px;
+}
+.icon{
     padding: 5px;
 }
 .sub-menu-1 {
+    line-height: 5px;
     background-color: #fffff;
-    width: 100%;
+    width: 200px;
     height: 100%;
-     padding: 0 15px;;
+    
     position: absolute;
     top: 0;
     left: 200px;
     box-shadow: 1px 2px 2px rgb(186, 182, 182);
+   
+}
+li text {
+    padding: 25px;
+}
+#maytinh span {
+    display: none;
+}
+#maytinh:hover span {
+    display: block;
+}
+#phukiendidong span {
+    display: none;
+}
+#phukiendidong:hover span {
+    display: block;
 }
 
 .sub-menu-2 {
     background-color: #ffffff;
     width: 100%;
     height: 100%;
-    padding: 0 15px;
+    list-style: 5px;
+    padding: 0px 0px 0px 15px;
     position: absolute;
     top: 0;
-    left: 175px;
+    left: 201px;
     box-shadow: 1px 2px 2px rgb(186, 182, 182);
 }
 .menu a {
@@ -45,24 +70,43 @@ h2{
     color: #757575;
     font-size: 13px;
 }
+li:hover .icon{
+    display: block;
+    color: orangered;
+}
+.icon {
+    display: none;
+}
+li p{
+    padding: 5px;
+}
 li{
+    
     list-style: none;
     color: #757575;
     font-size: 13px;
     line-height: 27px;
+    display: flex;
+    justify-content: space-between;
    
 }
+span i{
+    display: block;
+}
+
+
 a li{
     position: relative;
     font-size: 13px;
     color: #757575;
     
 }
-span {
-    position: absolute;
-    left: 190px;
-}
+
+
 /* css hover */
+.sub-menu-1 span{
+    display: none;
+}
 
 .menu > li:hover .sub-menu-1 {
     display: block;
@@ -72,7 +116,7 @@ span {
     background-color: #e7e5e5;
 }
 .sub-menu-1 ,.sub-menu-2 {
-    display: none;  */
+    display: none;  
 }
 #maytinh:hover .sub-menu-2 {
     display: block;
