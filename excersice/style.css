@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img {
+    width: auto;
+    height: auto;
+}
+.image img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    overflow: hidden;
+    position: relative;
+    
+}
+body {
+    background-color: #e1f0f7;
+}
+/* h2 css */
+#h2-1-2 {
+    position: absolute;
+    left: 400px;
+    top: 440px;
+}
+button{
+    padding: 4px 23px 0 23px;
+    text-align: center;
+    color: #ffff;
+    background-color:  rgb(54 51 51);
+    border-radius: 3px;
+    cursor: pointer;
+}
+.image-1{
+    position: absolute;
+}
+.container-1-1 {
+    position: absolute;
+    top: 541px;
+}
+.footer-info-1 li {
+    cursor: pointer;
+}
+.footer-infor2 li {
+    cursor: pointer;}
+/* menu css */
+.menu {
+    background-color: #9ddaf7;
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+}
+#menu-logo-1 {
+    width: 30px;
+    height: 32px;
+    border-radius: 50%;
+
+}
+.menu-logo-1 p{
+    padding: 2px;
+    color: #e1f0f7;
+}
+
+.menu-logo {
+    padding: 8px 11px 8px 80px;
+    text-align: center;
+    font-size: 26px; 
+}
+.menu-item {
+    display: flex;
+    align-items: center;
+    margin: 25px;
+}
+.menu-item-1 {
+    display: flex;
+    list-style: none;
+}
+.menu-item2 a {
+    margin: 0 40px;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+/* mô tả image */
+.image {
+    width: 100%;
+    height: 400px;
+    padding: 20px;
+    justify-items: center;
+    position: relative;
+
+}
+.card-image img {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    object-fit: cover;
+    height: 300px;
+    object-fit: cover
+}
+.image-1 h2{
+    text-align: center;
+    font-size: 40px;
+    color: #e1f0f7;
+}
+@keyframes exsapmle {
+    from{transform: translateY(0px);
+        display: none;}
+    to{transform: translateY(-197px);
+        display: block;}
+
+    }
+
+.image-1 {
+  
+    color: #ffff;
+    animation-name: exsapmle;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    
+
+
+}
+
+
+.image-1 p {
+    margin: 39px;
+    text-align: center;
+    font-size: 32px;
+    color: #e1f0f7;
+}
+/* mô tả card */
+.card {
+    width: 250px;
+    background-color: #ffff;
+    display: flex;
+    flex-direction: column;
+}
+.card img {
+    width: 100%;
+    transition: all 1s ease-in-out;
+}
+.card img:hover{
+   transform: scale(1.3);
+}
+
+.h2 {
+    text-align: center;
+    font-size: 30px;
+    padding: 30px 0;
+}
+ .card-container{
+    margin: 15px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.card {
+    border-radius: 5px;
+   
+    border: solid black;
+
+}
+#card-image-2 {
+    background-color: rgb(54 51 51);
+    border-radius: 5px;
+    padding-right: 5px;
+    color: #ffff;
+    text-align: center;
+    text-decoration: none;
+    margin: 15px;
+    padding: 4px 8px;
+}
+.card-title h4{
+    font-size: 19px;
+    padding: 15px;
+}
+.card-title p{
+    font-size: 17px;
+    padding: 5px 10px 10px 15px;
+   
+}
+#card-image-2 {
+    margin-top: auto;
+}
+
+.card-title {
+    padding-bottom: 15px;
+    height: calc(100% - 246px);
+}
+/* css footer */
+.footer{
+    padding: 40px;
+    margin-top: 70px;
+    background-color: #9ddaf7;
+   display: flex;
+   justify-content: space-around;
+    
+}
+.footer-info-1{
+    padding: 0 20px;
+    width: 20%;
+    line-height: 25px;
+}
+.footter-about {
+    padding: 0 20px;
+    width: 50%;
+}
+    
+.fa-twitter-square:before {
+    content: "\f081";
+    padding: 0 15px;
+}
+.footer-infor-2 {
+    line-height: 25px;
+}
+.footer-info-icon {
+    padding: 5px 0;
+}
+.footter-about h2 {
+    padding-bottom: 9px;
+    font-size: 20px;
+}
